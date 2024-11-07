@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <hr>
+    <hr>
+    <form action="/" method="post">
+        <label for name="fname">First Name: </label>
+        <input type="text" name="fname" id="fname"><br>
+
+        <label for name="mname">Middle Name: </label>
+        <input type="text" name="mname" id="mname"><br>
+
+        <label for name="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname"><br>
+
+        <label for name="city">City: </label>
+        <input type="text" name="city" id="city"><br>
+
+        <label for name="pass">Pass: </label>
+        <input type="password" name="pass" id="pass"><br>
+
+        <label for name="email">Email: </label>
+        <input type="email" name="email" id="email"><br>
+
+        <button type="submit">Submit</button>
+    </form><br><br>
+    <form method="post" action="/?_method=DELETE">
+        <input type="text" name="user" placeholder="Enter name or email to delete"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
